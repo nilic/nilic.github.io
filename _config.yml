@@ -9,18 +9,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               nilic's depot
-tagline:             'A lazy blog by a systems engineer'
-description:         'VMware virtualization/cloud, automation, DevOps and IT infrastructure topics and how-tos.'
+title:               /home/nilic/depot/
+tagline:             'A systems engineer''s blog'
+description:         'VMware virtualization/cloud, DevOps and IT infrastructure topics and howtos. Less is more.'
 url:                 http://nilic.github.com
 baseurl:             /
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Nebojsa Ilic
+  url:               https://twitter.com/nilic_
+  email:             blog@nilic.33mail.com
 
 # Custom vars
 version:             1.0.0
