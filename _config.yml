@@ -19,7 +19,9 @@ paginate:            5
 # About/contact
 author:
   name:              Nebojsa Ilic
-  url:               https://twitter.com/nilic_
+  linkedin:			 nebojsailic
+  github:			 nilic
+  twitter:           nilic_
   email:             blog@nilic.33mail.com
 
 # Custom vars
