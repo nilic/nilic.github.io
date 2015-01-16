@@ -321,6 +321,12 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
+/* Share text */
+.post-share {
+  font-size: .75em; /* 12px */
+  color: #9a9a9a;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;
