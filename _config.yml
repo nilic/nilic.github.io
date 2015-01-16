@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               random writes
 tagline:             'A systems engineer''s blog'
 description:         'VMware virtualization/cloud, DevOps and IT infrastructure topics and howtos. Less is more.'
-url:                 http://nilic.github.com
+url:                 http://nilic.github.io
 baseurl:             /
 paginate:            5
 
