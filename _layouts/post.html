@@ -5,8 +5,12 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
+
   {{ content }}
+
   <span class="post-share">Share on <a href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ site.url }}{{ page.url }}&source={{ site.url }}" target="_blank">Linkedin</a> | <a href="https://twitter.com/intent/tweet?text={{ page.title }}%20via%20@{{ site.author.twitter }}&url={{ site.url }}{{ page.url }}" target="_blank">Twitter</a></span>
+  
+  {% include comments.html %}
 </div>
 
 <div class="related">

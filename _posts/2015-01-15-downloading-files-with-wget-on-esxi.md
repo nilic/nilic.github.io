@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Downloading files with wget on ESXi
 ---
 
