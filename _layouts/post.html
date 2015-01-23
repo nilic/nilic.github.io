@@ -11,13 +11,12 @@ layout: default
   <span class="post-share">Share on <a href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ site.url }}{{ page.url }}&source={{ site.url }}" target="_blank">Linkedin</a> | <a href="https://twitter.com/intent/tweet?text={{ page.title }}%20via%20@{{ site.author.twitter }}&url={{ site.url }}{{ page.url }}" target="_blank">Twitter</a></span>
 
   <p>&nbsp;</p>
-  {% include disqus_count.html %}
-  {% include disqus_cond.html %}
+<!--   {% include disqus_cond.html %} -->
 <!--   <div id="disqus_thread">
     <a href="#" onclick="disqus();return false;">Show comments</a>
     <a href="#" onclick="disqus();return false;"><span class="disqus-comment-count" data-disqus-url="{{ site.baseurl }}{{ page.url }}">Show comments</span></a> 
   </div> -->
-  <!-- {% include disqus.html %} -->
+  {% include disqus.html %}
 </div>
 
 <div class="related">
