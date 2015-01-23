@@ -8,11 +8,11 @@ layout: default
 
   {{ content }}
 
-  <span class="post-share">Share on <a href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ site.url }}{{ page.url }}&source={{ site.url }}" target="_blank">Linkedin</a> | <a href="https://twitter.com/intent/tweet?text={{ page.title }}%20via%20@{{ site.author.twitter }}&url={{ site.url }}{{ page.url }}" target="_blank">Twitter</a></span>
+  <span class="post-share">Share on <a href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ site.url }}{{ page.url }}&source={{ site.url }}" target="_blank">Linkedin</a> | <a href="https://twitter.com/intent/tweet?text={{ page.title }}%20via%20@{{ site.author.twitter }}&url={{ site.url }}{{ page.url }}" target="_blank">Twitter</a>
 
   <p>&nbsp;</p>
-
   {% include disqus_cond.html %}
+  </span>
   <!-- {% include disqus_count.html %} -->
 <!--   <div id="disqus_thread">
     <a href="#" onclick="disqus();return false;">Show comments</a>
