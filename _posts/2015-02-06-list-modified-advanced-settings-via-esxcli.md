@@ -40,6 +40,6 @@ This will return a list of advanced settings similar to:
 ...
 ```
 
-where __Int Value__ shows the current value for the parameter, while __Default Int Value__ show its default value.
+where __Int Value__ / __String Value__ (depending whether the parameter stores its value as integer or string) shows the current value for the parameter, while __Default Int Value__ / __Default String Value__ show its default value.
 
 Source: [ProTip: How to remind yourself of Advanced Settings changes in ESXi](http://atherbeg.com/2014/11/10/protip-how-to-remind-yourself-of-advanced-settings-changes-in-esxi/)
