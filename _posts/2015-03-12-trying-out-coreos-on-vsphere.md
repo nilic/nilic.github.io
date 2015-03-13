@@ -16,7 +16,7 @@ As for CoreOS stable releases prior to 557, releases 522 and 494 are supported o
 
 ## CoreOS quickstart
 
-After logging in for the first time, you can start running containers. Obviously, Docker comes preinstalled and CoreOS currently uses BTRFS as the filesystem for storing images and containers:
+After logging in for the first time, you'll probably want to start building and running containers. Obviously, Docker comes preinstalled and CoreOS currently uses BTRFS as the filesystem for storing images and containers:
 
 ```
 core@core557 ~ $ docker -v
