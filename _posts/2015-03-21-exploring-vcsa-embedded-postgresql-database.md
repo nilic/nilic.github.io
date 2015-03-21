@@ -12,7 +12,7 @@ __Note:__ Following procedures are probably unsupported by VMware and are given 
 
 After logging to the VCSA over SSH or console, you can easily connect to the PostgreSQL server locally using `psql`:
 
-`# /opt/vmware/vpostgres/current/bin/psql -U postgres`
+```# /opt/vmware/vpostgres/current/bin/psql -U postgres```
 
 After connecting you can use psql or regular SQL commands, e.g.
 
@@ -55,7 +55,9 @@ Next, edit the `/storage/db/vpostgres/postgresql.conf` in order to configure Pos
 listen_addresses = '*'
 ```
 
-Finally, restart the PostgreSQL server by running `/etc/init.d/vmware-vpostgres restart`.
+Finally, restart the PostgreSQL server by running
+
+```/etc/init.d/vmware-vpostgres restart```
 
 ## Backing up the vCenter database
 
