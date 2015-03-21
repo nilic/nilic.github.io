@@ -19,9 +19,9 @@ As for CoreOS stable releases prior to 557, releases 522 and 494 are supported o
 After logging in for the first time, you'll probably want to start building and running containers. Obviously, Docker comes preinstalled and CoreOS currently uses BTRFS as the filesystem for storing images and containers:
 
 ```
-core@core557 ~ $ docker -v
+$ docker -v
 Docker version 1.4.1, build 5bc2ff8-dirty
-core@core557 ~ $ docker info
+$ docker info
 Containers: 0
 Images: 23
 Storage Driver: btrfs
@@ -39,7 +39,7 @@ ID: 2BUV:642W:WTZQ:3L4O:FFIY:JOC5:XKO2:3QPC:ADEJ:LSCS:QS5K:XHKB
 As mentioned before, CoreOS doesn't offer a way to install additional packages directly to the OS, but provides __Toolbox__, which is by default a stock Fedora Docker container that can be used for installing sysadmin tools. Toolbox can be run using `/usr/bin/toolbox`, first execution of which will pull and run the container:
 
 ```
-core@core557 ~ $ toolbox 
+$ toolbox 
 fedora:latest: The image you are pulling has been verified
 00a0c78eeb6d: Pull complete 
 834629358fe2: Pull complete 
