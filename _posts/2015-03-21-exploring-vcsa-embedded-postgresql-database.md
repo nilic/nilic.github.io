@@ -12,7 +12,7 @@ __Note:__ Following procedures are probably unsupported by VMware and are given 
 
 After logging to the VCSA over SSH or console, you can easily connect to the PostgreSQL server locally using `psql`:
 
-```# /opt/vmware/vpostgres/current/bin/psql -U postgres```
+`/opt/vmware/vpostgres/current/bin/psql -U postgres`
 
 After connecting you can use psql or regular SQL commands, e.g.
 
@@ -57,7 +57,7 @@ listen_addresses = '*'
 
 Finally, restart the PostgreSQL server by running
 
-```/etc/init.d/vmware-vpostgres restart```
+`/etc/init.d/vmware-vpostgres restart`
 
 ## Backing up the vCenter database
 
@@ -109,6 +109,6 @@ The final step is to allow external access to the PostgreSQL through the VCSA IP
 
 Afterwards, reload VCSA firewall by running
 
-`# /usr/lib/applmgmt/networking/bin/firewall-reload`
+`/usr/lib/applmgmt/networking/bin/firewall-reload`
 
 and PostgreSQL server should be accessible from the outside world after configuring `pg_hba.conf` and `postgresql.conf` as described above.
