@@ -1,7 +1,7 @@
 # Ignore docs files
 backup
 _gh_pages
-_site
+#_site
 .ruby-version
 
 # Numerous always-ignore extensions
