@@ -26,7 +26,3 @@ author:
 
 # Custom vars
 version:             1.0.0
-
-# Sitemap
-gems:
-  - jekyll-sitemap
