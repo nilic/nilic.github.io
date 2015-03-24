@@ -61,7 +61,7 @@ Finally, restart the PostgreSQL server by running
 
 ## Backing up the vCenter database
 
-[VMware KB 2034505](https://kb.vmware.com/kb/2034505) provides information on using native PostgreSQL tools to perform VCDB backups and restores. The requirement for the vCenter service to be stopped during the database backup seems kinda redundant, since `pg_dump` should perform consistent backups even if the database is in use.
+[VMware KB 2034505](http://kb.vmware.com/kb/2034505) provides information on using native PostgreSQL tools to perform VCDB backups and restores. The requirement for the vCenter service to be stopped during the database backup seems kinda redundant, since `pg_dump` should perform consistent backups even if the database is in use.
 
 Sample backup scripts and instructions on how to schedule them via `cron` can be found on [Florian Bidabe's](http://bidabe.zapto.org/?p=360) and [vNinja](http://vninja.net/virtualization/vpostgres-database-backup-vcsa-5-5/) blogs. Since `mount.nfs` is available on the VCSA, it seems that you can even use an NFS share as a destination for your VCDB backups (haven't tested it though).
 
