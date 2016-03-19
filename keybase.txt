@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/nilic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nilic.github.io
+  * I am nilic (https://keybase.io/nilic) on keybase.
+  * I have a public key with fingerprint F03E 5B4D 361C 02A1 5E26  B8DA AA02 7E24 160C D784
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010101b43f5a2ad59c1d9fcf5132c9d2d1c44fd9068da42b7642930564029d86bce90a",
+            "fingerprint": "f03e5b4d361c02a15e26b8daaa027e24160cd784",
+            "host": "keybase.io",
+            "key_id": "aa027e24160cd784",
+            "kid": "010101b43f5a2ad59c1d9fcf5132c9d2d1c44fd9068da42b7642930564029d86bce90a",
+            "uid": "3c0f8f9067c6cd834533b40b42e14619",
+            "username": "nilic"
+        },
+        "service": {
+            "hostname": "nilic.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458410631,
+    "expire_in": 157680000,
+    "prev": "539dc760d4eaa8c52f905dbb8b9334a443f7461dd984ea491dfd6b199188c39e",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJbSBRRGN41zdpQo5IC6cIJFGKpuZyZnbPWQzchjeohikrZ5lxGx3Rm
+nZ1VN7uxdCFBKAu6YEUPW0FRRBShBt1siahEKqMb2E0JDLsQCBmdsYIeeuych8P5
+/+/7zvf9nNs5Y3wB/9nsRdOepXd/9N+7cSjuWzN4cE8TwDZNgHAT2MRGD1ZDWcyN
+bDIpCANB9DaGsqHokk4VRESKDGIooiwRRCUqEggNigRVozqUcEiFEpIFRYWChKim
+YsKQoIMgMEyrkjlRx7RcLmsIMlMwpLIqEkHSRYVJKuYKui5IISZBURUIDWmQE6vs
+mMfg5rAeY3NNm9f4JTJq7x/4/+w7PionE8HQDI4OEZVQTYaKLGMoYCgxEaoi8oAx
+5lh6LeNoy6wxCdgaBLxUbxLmTdWL8Xd7bqXpVsXxrzxRx3ZtYtfwZpXrRmNhj+wm
+oh66geHIb50INi3K58gZ9cyJmbYFwiJHEtf0hEWoaFAUVFkMAtYYNR0WMT2EElI1
+gS/vHVbPJRUZURJSBQqZrmtEkXgyhWKsYSTLUId8aiGeilKkcQREIjWoikWERE0j
+MmLAS1Zn2SAMuU29kkvGzEpLd+MOA1tvXi/P9PkDvrFZGd7/8gXGT/zz607OGOe7
+mhpTXrarGVbk9AdHtjvJ4lmX/R93xosn73/ckZ93a+3At8yVs48uvrSeDbdl+y6W
+WKfrNnb3fFlyQF5VnfzxfuCJv29OoGhLn6Okvg51jSs4PQKL7nzrXNudAPc7lxW2
+ht8810vfSg+H8INU+lThIul+2Yz+3luwfRi+C66x553Zd2TD3eThD5vBit6WlIuO
+74y+6UrfOZaeP7KtYroytUUXOp7taMu78Hyh+SI/XNBese7c+SnFhe6Z+dKJLb21
+s54urR4PMqoHt3+vmPn6c/Pe1a9yL5a+TGYFzykfGnqs7vzlOQ3XWs8umFByBXU1
+Fj2a1NY8+dG6nnRu4lMnKJ34E6UBPxE=
+=il7L
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nilic
+
+==================================================================
