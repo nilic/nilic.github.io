@@ -4,9 +4,9 @@ comments: true
 title: A few VMware Virtual Volumes (VVol) tips
 ---
 
-VMware Virtual Volumes (VVols) are a vSphere feature which allow for storing VM virtual disks and other files natively on the storage system (instead of on VMFS datastores created on top of LUNs) and managing their placement through vSphere storage policies. VVols are available since vSphere 6.0 and require a vSphere Standard or Enterprise Plus license.
+VMware Virtual Volumes (VVols) are a vSphere feature which allow for storing VM virtual disks and other files natively on the storage system (instead of on VMFS datastores created on top of LUNs) and managing their placement on the storage system through vSphere storage policies. VVols are available since vSphere 6.0 and require a vSphere Standard or Enterprise Plus license.
 
-VVols are a pretty fascinating piece of technology, which I'm guessing are set to completely replace VMFS datastores in a few years time. Since they are a fairly new feature without many implementation tips available online, here are a few things to bear in mind when deploying VVols:
+VVols are a pretty fascinating piece of technology, which I'm guessing is set to completely replace VMFS datastores in a few years time. Since this is a fairly new feature without many implementation tips available online, here are a few things to bear in mind when deploying VVols:
 
 * in order to use VVols, besides a VVol certified storage system, HBAs in your ESXi hosts need to support Secondary LUN IDs - to check whether this is the case, refer to the the [VMware Compatibility Guide for IO Devices](http://www.vmware.com/resources/compatibility/search.php?deviceCategory=io) and be sure to select *Secondary LUNID (Enables VVols)* in the *Features* section
   * if your hosts are running ESXi 6, you can check for HBA VVol compatibility from the command line by running `esxcli storage core adapter list` and noting whether "Capabilites" column contains *Second Level Lun ID* for the vmhbas in question
